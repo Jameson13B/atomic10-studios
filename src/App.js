@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col justify-center items-center bg-[url('/src/assets/neon-background-dark.jpg')] bg-cover bg-no-repeat h-full w-full">
+      <h1 className="font-chicle text-[white] text-7xl text-center bg-[rgba(0,0,0,0.35)] p-[12px] rounded-[20px]">
+        Atomic10 Studios
+      </h1>
+      <hr className="w-[50%] sm:w-[20%] border-double border-t-8 border-[white] rounded-[20px] my-[30px]" />
+      <h2 className="font-chicle text-[white] text-4xl">SL,UT</h2>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
