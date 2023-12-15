@@ -5,9 +5,12 @@ function App() {
         Atomic10 Studios
       </h1>
       <hr className="w-[50%] sm:w-[20%] border-double border-t-8 border-[white] rounded-[20px] my-[30px]" />
-      <h2 className="font-chicle text-[white] text-4xl text-shadow p-[16px] rounded-[20px]">
+      <h2 className="font-chicle text-[white] text-4xl text-shadow p-[16px]">
         SL,UT
       </h2>
+      <h3 className="font-chicle text-[white] text-xl text-shadow-small p-[16px]">
+        Updates Coming
+      </h3>
     </div>
   )
 }
