@@ -20,6 +20,9 @@ module.exports = {
         DEFAULT: '4px 6px 0 rgba(0, 0, 0, 0.4)',
         small: '3px 4px 0 rgba(0, 0, 0, 0.4)',
       },
+      backgroundImage: {
+        logo: "url('../src/assets/neon_logo.png')",
+      },
     },
   },
   plugins: [
