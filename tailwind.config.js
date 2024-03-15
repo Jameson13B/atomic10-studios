@@ -11,6 +11,8 @@ module.exports = {
       },
       fontFamily: {
         chicle: ['Chicle', 'serif'],
+        Poppins: ['Poppins', 'sans-serif'],
+        PlusJakarta: ['Plus Jakarta Sans', 'sans-serif'],
       },
       hueRotate: {
         270: '270deg',

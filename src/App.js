@@ -1,13 +1,20 @@
 import React from 'react'
 
+import { Header } from './components/Header'
+import { Home } from './components/Home'
+import { Services } from './components/Services'
+import { Projects } from './components/Projects'
+import { About } from './components/About'
+
 function App() {
   return (
-    <React.Fragment>
-      <div className="flex flex-col justify-center items-center bg-[#000008] bg-logo bg-contain bg-center bg-no-repeat h-full w-full"></div>
-      <h3 className="font-chicle text-[#62A2E7] text-3xl text-shadow-small p-[16px] fixed bottom-[20%] left-[50%] translate-x-[-50%]">
-        Coming Soon
-      </h3>
-    </React.Fragment>
+    <div className="bg-[#161513]">
+      <Header />
+      <Home />
+      <Services />
+      <Projects />
+      <About />
+    </div>
   )
 }
 
