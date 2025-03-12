@@ -17,11 +17,13 @@ export const Services = () => {
             </div>
           </div>
           <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-            Our Web Design and Development service brings your digital ideas to
-            life. We create custom websites that are user-friendly, visually
-            appealing, and tailored to your needs. From design to
-            implementation, we ensure your online presence stands out and
-            performs seamlessly across devices.
+            Your website should be more than just functional—it should be an
+            experience. At Atomic10, we craft sleek, high-performance sites that
+            are fast, seamless, and built with the right tools for the job,
+            whether that's Vite, React, TypeScript, or cutting-edge serverless
+            tech. No templates, no one-size-fits-all solutions—just bold, custom
+            web design that brings your vision to life while standing out in all
+            the right ways.
           </p>
         </div>
       </div>
@@ -35,11 +37,14 @@ export const Services = () => {
             </div>
           </div>
           <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-            We develop custom software solutions that streamline your
-            operations, boost productivity, and drive growth at an affordable
-            price. Our team of experts will work closely with you to understand
-            your unique business needs and create software that meets your
-            specific requirements and expectations.
+            Great software should feel like magic—powerful, seamless, and built
+            just for you. At Atomic10, we craft custom solutions that simplify
+            operations, boost productivity, and scale effortlessly. Whether it's
+            a sleek web app, an automated system, or something entirely
+            out-of-the-box, we use the best tools for the job to build software
+            that works the way you need it to. No fluff, no unnecessary
+            complexity—just smart, efficient development that brings your ideas
+            to life.
           </p>
         </div>
       </div>
@@ -53,10 +58,12 @@ export const Services = () => {
             </div>
           </div>
           <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-            We offer a range of services to help you realize and grow your idea.
-            From web design and development to application development, we have
-            you covered. Whatever your idea, we can help you bring it to life
-            and make it a reality.
+            Big idea, small idea, half-baked idea—we're here for all of it. At
+            Atomic10, we help turn concepts into real, working products with
+            custom web, software, and app development built around your needs.
+            Whether you're starting from scratch or refining something great, we
+            bring the technical expertise and creative problem-solving to get
+            you there, no nonsense, no limits.
           </p>
         </div>
       </div>

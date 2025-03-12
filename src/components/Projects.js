@@ -14,16 +14,21 @@ export const Projects = () => {
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <div className="flex flex-col sm:flex-row items-center">
               <h3 className="text-[#FFFFFF] text-[21px] font-[700] font-Poppins">
-                Private Nanobrewery
+                Private Pico Brewery
               </h3>
             </div>
           </div>
           <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-            A local private nanobrewery. We have been brewing beers, ciders,
-            hard sodas, and more for 5 years. Always brewed in small batches of
-            2 gallons(16 glasses) or less. We enjoy experimenting with new
-            flavors and recipes. Most of our brews are ciders and hard
-            sodas/juices, but our portfolio has quite the variety.
+            Brewing, but make it experimental. At Atomic10 Brewery, we craft
+            ultra-small batches—just 3 gallons or less at a time—giving us the
+            freedom to explore bold flavors, unexpected ingredients, and
+            anything that piques our curiosity. For the past five years, we've
+            been perfecting ciders, hard sodas, and small-batch brews that don't
+            just taste good—they tell a story. No mass production, no
+            shortcuts—just pure creativity in a glass.{" "}
+            <a className="text-[#5BADFF]" href="https://brews.atomic10.studio/">
+              Current menu
+            </a>
           </p>
         </div>
       </div>
@@ -37,13 +42,13 @@ export const Projects = () => {
             </div>
           </div>
           <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-            Our studio considers this our "hobby project". We are 3D printing
-            class A rockets that will be able to travel over 1000 feet in the
-            air and desend slowly back on earth with a parachute recovery
-            system. We have finished the design phase and are currently in the
-            build phase. We plan to launch our first two rockets in March 2025.
-            Future improvements include upgraded engines, improved body designs,
-            and more to prepare for our massive two stage rocket.
+            What starts as an experiment quickly becomes an obsession. Designing
+            and building Class A rockets that soar over 1,000 feet before
+            parachuting back to Earth. With the design phase complete, we're
+            deep into building and prepping for our first test launches in March
+            2025. And this is just the beginning—future upgrades include more
+            powerful engines, refined aerodynamics, and the ultimate goal: a
+            massive two-stage rocket built for even greater heights.
           </p>
         </div>
       </div>
@@ -57,10 +62,12 @@ export const Projects = () => {
             </div>
           </div>
           <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-            We organize pop-up food events that bring together a community of
-            open-minded and positive people to share a meal, drink, and
-            conversation. We provide the rotating and themed food, drinks, and a
-            space. You bring love, an appetite, and the conversation with you.
+            Food is better when it's an experience. Atomic10 Nights brings
+            people together for unique, one-night-only dining events where the
+            menu is always changing, the drinks are flowing, and the
+            conversation is just as important as the meal. We create the space,
+            craft the flavors, and set the vibe—you bring your appetite, your
+            curiosity, and a seat at the table.
           </p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import NeonLogo from '../assets/neon_logo.png'
+import NeonLogo from "../assets/neon_logo.png"
 
 export const About = () => {
   return (
@@ -11,21 +11,29 @@ export const About = () => {
           About
         </h2>
         <p className="text-[#C5C5C5] text-[14px] font-[400] font-Poppins mb-[40px] text-left">
-          At Atomic10 Studio, we're passionate about helping businesses thrive
-          in the digital world. With our comprehensive range of services
-          including Web Design and Development, Web Content, and Email Marketing
-          Design, we empower our clients to build a strong online presence,
-          engage their audience effectively, and achieve their goals. Backed by
-          a team of skilled professionals, we combine creativity, expertise, and
-          dedication to deliver tailored solutions that exceed expectations.
-          Whether you're a new company or already well established, we're
-          committed to partnering with you on your journey to digital success.
+          Atomic10 isn't just a company—it's a playground for bold ideas,
+          unexpected creativity, and hands-on innovation. We're a collective of
+          makers, builders, and dreamers bringing unique projects to life, from
+          modern web design and software development to experimental brewing,
+          pop-up food experiences, and even 3D-printed rockets. If it sparks
+          curiosity, we're in.
+        </p>
+        <p className="text-[#C5C5C5] text-[14px] font-[400] font-Poppins mb-[40px] text-left">
+          At the heart of it all is a simple mission: to create, explore, and
+          share. Whether crafting sleek digital experiences, pushing the
+          boundaries of technology, or hosting unforgettable nights filled with
+          food and community, every Atomic10 project is driven by passion,
+          collaboration, and a relentless pursuit of what's next.
+        </p>
+        <p className="text-[#C5C5C5] text-[14px] font-[400] font-Poppins mb-[40px] text-left">
+          We're not here to follow the rules—we're here to redefine them.
+          Welcome to Atomic10.
         </p>
         <p className="text-[#C5C5C5] text-[14px] font-[800] font-Poppins mb-[22px]">
           Headquarters: <span className="font-[600]">Salt Lake City, UT</span>
         </p>
         <p className="text-[#C5C5C5] text-[14px] mb-[60px] font-[800] font-Poppins">
-          Contact:{' '}
+          Contact:{" "}
           <a className="font-[600]" href="mailto: jameson13b@icloud.com">
             jameson13b@icloud.com
           </a>
