@@ -3,7 +3,7 @@ import NeonLogo from "../assets/neon_logo.png"
 export const About = () => {
   return (
     <div
-      className="w-full h-[calc(100vh-96px)] bg-[#191919] px-[25px] py-[100px]"
+      className="w-full h-[calc(100vh-96px)] bg-[#191919] px-[25px] pb-[100px] pt-[55px]"
       id="about-section"
     >
       <div className="flex flex-col max-w-[650px] h-full mx-auto">
@@ -41,7 +41,7 @@ export const About = () => {
         <img
           src={NeonLogo}
           alt="logo"
-          className="max-w-[60%] sm:mt-16 w-full mx-auto self-end"
+          className="max-w-[60%] sm:mt-4 w-full mx-auto self-end"
         />
       </div>
     </div>

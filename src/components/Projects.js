@@ -26,7 +26,12 @@ export const Projects = () => {
             been perfecting ciders, hard sodas, and small-batch brews that don't
             just taste good—they tell a story. No mass production, no
             shortcuts—just pure creativity in a glass.{" "}
-            <a className="text-[#5BADFF]" href="https://brews.atomic10.studio/">
+            <a
+              className="text-[#5BADFF]"
+              href="https://brews.atomic10.studio/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Current menu
             </a>
           </p>
