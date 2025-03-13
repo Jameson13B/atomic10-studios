@@ -4,7 +4,7 @@ import NeonLogo from "../assets/neon_logo.png"
 const topics = [
   "Modern Web Design", // Service
   "Software Development", // Service
-  "Private Nanobrewery", // Project
+  "Private Pico Brewery", // Project
   "Dev Shop Services", // Service
   "3D Printed Rockets", // Project
   "Pop-Up Food Events", // Project
