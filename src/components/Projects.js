@@ -25,7 +25,7 @@ export const Projects = () => {
             anything that piques our curiosity. For the past five years, we've
             been perfecting ciders, hard sodas, and small-batch brews that don't
             just taste good—they tell a story. No mass production, no
-            shortcuts—just pure creativity in a glass.{" "}
+            shortcuts—just pure creativity in a glass. Check out our{" "}
             <a
               className="text-[#5BADFF]"
               href="https://brews.atomic10.studio/"
@@ -33,7 +33,8 @@ export const Projects = () => {
               rel="noopener noreferrer"
             >
               Current menu
-            </a>
+            </a>{" "}
+            for past, current, and future brews.
           </p>
         </div>
       </div>
@@ -73,6 +74,25 @@ export const Projects = () => {
             conversation is just as important as the meal. We create the space,
             craft the flavors, and set the vibe—you bring your appetite, your
             curiosity, and a seat at the table.
+          </p>
+        </div>
+      </div>
+      <div className="flex flex-col max-w-[650px] mx-auto">
+        <div className="mb-[55px]">
+          <div className="flex flex-col sm:flex-row justify-between items-center">
+            <div className="flex flex-col sm:flex-row items-center">
+              <h3 className="text-[#FFFFFF] text-[21px] font-[700] font-Poppins">
+                Project Sundrift
+              </h3>
+            </div>
+          </div>
+          <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
+            Project Sundrift is our low-tech love letter to light and time—long
+            exposures captured over weeks or months as the sun slowly sketches
+            its personality and journey. No screens, no batteries, no idea how
+            each creation will turn out. It's imperfect, unpredictable, and
+            totally our kind of fun. Just the sun vibing, and us weirdos
+            joining.
           </p>
         </div>
       </div>

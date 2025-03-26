@@ -8,6 +8,7 @@ const topics = [
   "Dev Shop Services", // Service
   "3D Printed Rockets", // Project
   "Pop-Up Food Events", // Project
+  "Project Sundrift", // Project
 ]
 
 export const Home = (props) => {
