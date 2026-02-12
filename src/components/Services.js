@@ -1,12 +1,13 @@
 export const Services = () => {
   return (
     <div
-      className="pt-[65px] pb-[135px] p-[25px] flex flex-col align-center min-h-[calc(100vh-96px)]"
+      className="bg-[#000008] pt-[65px] pb-[135px] p-[25px] flex flex-col align-center min-h-[calc(100vh-62px)]"
       id="services-section"
     >
       <h2 className="bg-gradient-to-t from-[#D5491D] to-[#FF8660] inline-block text-transparent bg-clip-text text-[35px] font-[800] uppercase mb-16 max-w-[650px] mx-auto font-Poppins">
         Services
       </h2>
+
       <div className="flex flex-col max-w-[650px] mx-auto">
         <div className="mb-[55px]">
           <div className="flex flex-col sm:flex-row justify-between items-center">
@@ -31,6 +32,41 @@ export const Services = () => {
         <div className="mb-[55px]">
           <div className="flex flex-col sm:flex-row justify-between items-center">
             <div className="flex flex-col sm:flex-row items-center">
+              <a
+                href="https://neonfiction.games"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="text-[#FFFFFF] text-[21px] font-[700] font-Poppins">
+                  Neon Fiction Games
+                </h3>
+              </a>
+            </div>
+          </div>
+          <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
+            Neon Fiction Games is an online game studio. It all started with
+            Vault, our breakout banger that got everyone hooked. Now we're
+            dropping Penguin Paradise (get ready for penguin-fueled chaos on
+            ice!), going full throttle on Starstruck (trust us, it's going to be
+            galactic), and plotting epic wins in Bictory!. We live for those
+            electric multiplayer moments that turn regular nights into absolute
+            legends. Bust this out on your next game night and be an instant
+            hit.
+          </p>
+          <a
+            className="text-[#5BADFF] text-[14px] font-[400] text-left ml-[16px] mt-[16px] block font-Poppins"
+            href="https://neonfiction.games"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ☍ Neon Fiction Games
+          </a>
+        </div>
+      </div>
+      <div className="flex flex-col max-w-[650px] mx-auto">
+        <div className="mb-[55px]">
+          <div className="flex flex-col sm:flex-row justify-between items-center">
+            <div className="flex flex-col sm:flex-row items-center">
               <h3 className="text-[#FFFFFF] text-[21px] font-[700] font-Poppins">
                 Software Development
               </h3>
@@ -45,25 +81,6 @@ export const Services = () => {
             that works the way you need it to. No fluff, no unnecessary
             complexity—just smart, efficient development that brings your ideas
             to life.
-          </p>
-        </div>
-      </div>
-      <div className="flex flex-col max-w-[650px] mx-auto">
-        <div className="mb-[55px]">
-          <div className="flex flex-col sm:flex-row justify-between items-center">
-            <div className="flex flex-col sm:flex-row items-center">
-              <h3 className="text-[#FFFFFF] text-[21px] font-[700] font-Poppins">
-                Dev Shop Services
-              </h3>
-            </div>
-          </div>
-          <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-            Big idea, small idea, half-baked idea—we're here for all of it. At
-            Atomic10, we help turn concepts into real, working products with
-            custom web, software, and app development built around your needs.
-            Whether you're starting from scratch or refining something great, we
-            bring the technical expertise and creative problem-solving to get
-            you there, no nonsense, no limits.
           </p>
         </div>
       </div>

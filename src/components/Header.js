@@ -1,31 +1,31 @@
-import React, { useState } from 'react'
+import React, { useState } from "react"
 
-import MenuIcon from '../assets/menu.svg'
-import CloseIcon from '../assets/close.svg'
+import MenuIcon from "../assets/menu.svg"
+import CloseIcon from "../assets/close.svg"
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
   const scrollToTop = (selector) => {
     window.scrollTo({
-      behavior: 'smooth',
+      behavior: "smooth",
       top:
         document.querySelector(selector).getBoundingClientRect().top -
         document.body.getBoundingClientRect().top -
-        96,
+        62,
     })
   }
 
   return (
     <div className="w-full bg-[#222222] sticky top-0">
-      <div className="flex justify-between items-center max-w-[900px] mx-auto p-[30px]">
-        <h1 className="text-3xl font-bold text-white font-Poppins">
+      <div className="flex justify-between items-center max-w-[900px] mx-auto px-[30px] py-[15px]">
+        <h1 className="text-2xl font-bold text-white font-Poppins">
           Atomic10 Studio
         </h1>
         <div className="flex justify-between hidden sm:flex">
           <button
             className="text-white mr-[71px] font-PlusJakarta"
             onClick={() => {
-              scrollToTop('#home-section')
+              scrollToTop("#home-section")
             }}
           >
             Home
@@ -33,23 +33,23 @@ export const Header = () => {
           <button
             className="text-white mr-[71px] font-PlusJakarta"
             onClick={() => {
-              scrollToTop('#services-section')
-            }}
-          >
-            Services
-          </button>
-          <button
-            className="text-white mr-[71px] font-PlusJakarta"
-            onClick={() => {
-              scrollToTop('#projects-section')
+              scrollToTop("#projects-section")
             }}
           >
             Projects
           </button>
           <button
+            className="text-white mr-[71px] font-PlusJakarta"
+            onClick={() => {
+              scrollToTop("#services-section")
+            }}
+          >
+            Services
+          </button>
+          <button
             className="text-white font-PlusJakarta"
             onClick={() => {
-              scrollToTop('#about-section')
+              scrollToTop("#about-section")
             }}
           >
             About
@@ -77,7 +77,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop('#home-section')
+                scrollToTop("#home-section")
               }}
             >
               Home
@@ -86,7 +86,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop('#services-section')
+                scrollToTop("#services-section")
               }}
             >
               Services
@@ -95,7 +95,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop('#projects-section')
+                scrollToTop("#projects-section")
               }}
             >
               Projects
@@ -104,7 +104,7 @@ export const Header = () => {
               className="text-white p-[20px] rounded-[12px] w-full mt-[20px] font-PlusJakarta hover:bg-[#161513] text-[20px]"
               onClick={() => {
                 setIsOpen(false)
-                scrollToTop('#about-section')
+                scrollToTop("#about-section")
               }}
             >
               About

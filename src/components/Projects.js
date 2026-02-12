@@ -3,12 +3,45 @@
 export const Projects = () => {
   return (
     <div
-      className="bg-[#000008] pt-[65px] pb-[135px] p-[25px] flex flex-col align-center min-h-[calc(100vh-96px)]"
+      className="bg-[#191919] pt-[65px] pb-[135px] p-[25px] flex flex-col align-center min-h-[calc(100vh-62px)]"
       id="projects-section"
     >
       <h2 className="bg-gradient-to-t from-[#1373D1] to-[#5BADFF] inline-block text-transparent bg-clip-text text-[35px] font-[800] uppercase mb-16 max-w-[650px] mx-auto font-Poppins">
         Projects
       </h2>
+
+      <div className="flex flex-col max-w-[650px] mx-auto">
+        <div className="mb-[55px]">
+          <div className="flex flex-col sm:flex-row justify-between items-center">
+            <div className="flex flex-col sm:flex-row items-center">
+              <a
+                href="https://neonboard.atomic10.studio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3 className="text-[#FFFFFF] text-[21px] font-[700] font-Poppins">
+                  Neon Board - Multiplayer Game Framework
+                </h3>
+              </a>
+            </div>
+          </div>
+          <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
+            Neon Board is a multiplayer game framework that keeps your game
+            state in sync across devices using Firebase Firestore. A hooks first
+            approach with an imperative API for vanilla JS or whenever you need
+            it. One game config. Board applies it. Players submit actions.
+            Firebase Firestore — no game server.
+          </p>
+          <a
+            className="text-[#5BADFF] text-[14px] font-[400] text-left ml-[16px] mt-[16px] block font-Poppins"
+            href="https://neonboard.atomic10.studio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ☍ Neon Board Docs
+          </a>
+        </div>
+      </div>
       <div className="flex flex-col max-w-[650px] mx-auto">
         <div className="mb-[55px]">
           <div className="flex flex-col sm:flex-row justify-between items-center">
@@ -25,17 +58,16 @@ export const Projects = () => {
             anything that piques our curiosity. For the past five years, we've
             been perfecting ciders, hard sodas, and small-batch brews that don't
             just taste good—they tell a story. No mass production, no
-            shortcuts—just pure creativity in a glass. Check out our{" "}
-            <a
-              className="text-[#5BADFF]"
-              href="https://brews.atomic10.studio/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Current menu
-            </a>{" "}
-            for past, current, and future brews.
+            shortcuts—just pure creativity in a glass.
           </p>
+          <a
+            className="text-[#5BADFF] text-[14px] font-[400] text-left ml-[16px] mt-[16px] block font-Poppins"
+            href="https://brews.atomic10.studio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ☍ Brews Menu
+          </a>
         </div>
       </div>
       <div className="flex flex-col max-w-[650px] mx-auto">
@@ -55,44 +87,6 @@ export const Projects = () => {
             2025. And this is just the beginning—future upgrades include more
             powerful engines, refined aerodynamics, and the ultimate goal: a
             massive two-stage rocket built for even greater heights.
-          </p>
-        </div>
-      </div>
-      <div className="flex flex-col max-w-[650px] mx-auto">
-        <div className="mb-[55px]">
-          <div className="flex flex-col sm:flex-row justify-between items-center">
-            <div className="flex flex-col sm:flex-row items-center">
-              <h3 className="text-[#FFFFFF] text-[21px] font-[700] font-Poppins">
-                Pop-Up Food Events
-              </h3>
-            </div>
-          </div>
-          <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-            Food is better when it's an experience. Atomic10 Nights brings
-            people together for unique, one-night-only dining events where the
-            menu is always changing, the drinks are flowing, and the
-            conversation is just as important as the meal. We create the space,
-            craft the flavors, and set the vibe—you bring your appetite, your
-            curiosity, and a seat at the table.
-          </p>
-        </div>
-      </div>
-      <div className="flex flex-col max-w-[650px] mx-auto">
-        <div className="mb-[55px]">
-          <div className="flex flex-col sm:flex-row justify-between items-center">
-            <div className="flex flex-col sm:flex-row items-center">
-              <h3 className="text-[#FFFFFF] text-[21px] font-[700] font-Poppins">
-                Project Sundrift
-              </h3>
-            </div>
-          </div>
-          <p className="text-[#8491A0] text-[14px] font-[400] text-left mt-[23px] font-Poppins">
-            Project Sundrift is our low-tech love letter to light and time—long
-            exposures captured over weeks or months as the sun slowly sketches
-            its personality and journey. No screens, no batteries, no idea how
-            each creation will turn out. It's imperfect, unpredictable, and
-            totally our kind of fun. Just the sun vibing, and us weirdos
-            joining.
           </p>
         </div>
       </div>

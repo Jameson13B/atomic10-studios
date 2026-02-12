@@ -2,13 +2,11 @@ import React, { useState, useEffect } from "react"
 import NeonLogo from "../assets/neon_logo.png"
 
 const topics = [
-  "Modern Web Design", // Service
-  "Software Development", // Service
   "Private Pico Brewery", // Project
-  "Dev Shop Services", // Service
+  "Multiplayer Game Framework", // Project
   "3D Printed Rockets", // Project
-  "Pop-Up Food Events", // Project
-  "Project Sundrift", // Project
+  "Software Development", // Service
+  "Neon Fiction Games", // Service
 ]
 
 export const Home = (props) => {
@@ -26,20 +24,20 @@ export const Home = (props) => {
 
   return (
     <div
-      className="flex flex-col bg-[#000008] h-[calc(100vh-96px)] px-[25px]"
+      className="flex flex-col bg-[#000008] h-[calc(100vh-62px)] px-[25px]"
       id="home-section"
     >
+      <img
+        src={NeonLogo}
+        alt="logo"
+        className="mt-[3rem] max-w-[900px] w-full mx-auto"
+      />
       <h1 className="max-w-[768px] mx-auto mt-20 text-center text-white text-[45px] sm:text-[55px] font-[800] font-Poppins">
         The studio for{" "}
       </h1>
       <p className="max-w-[768px] mx-auto mb-12 bg-gradient-to-br from-[#FF51A0] from-55% to-[#3289C3] to-75% bg-clip-text text-[50px] sm:text-[65px] text-transparent font-[800] text-center">
         {topic}
       </p>
-      <img
-        src={NeonLogo}
-        alt="logo"
-        className="mt-[3rem] max-w-[900px] w-full mx-auto"
-      />
     </div>
   )
 }
